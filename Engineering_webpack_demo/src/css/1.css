@@ -1,0 +1,19 @@
+li {
+    list-style: none;
+}
+
+
+/* 这个属性低版本浏览器不支持，配置 postCSS 自动添加 css 的兼容前缀 */
+
+::placeholder {
+    color: red;
+}
+
+#box {
+    width: 580px;
+    height: 440px;
+    background-color: pink;
+    /* webpack 默认处理不了 路径问题 */
+    /* 打包样式表中的图片和字体文件 */
+    background: url('../images/1.jpg');
+}

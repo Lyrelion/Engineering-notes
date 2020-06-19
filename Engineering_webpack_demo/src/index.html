@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>初始化基本页面结构</title>
+    <!-- index.js中使用了高级ES6语法，浏览器不解析，会报错 -->
+    <!-- <script src="./index.js"></script> -->
+    <!-- webpack打包处理 index.js 生成新的名为main.js文件，不存在兼容性问题 -->
+    <!-- <script src="../dist/main.js"></script> -->
+    <!-- 希望修改输出文件名字，从main.js→独自命名，这里是bundle.js -->
+    <!-- <script src="../dist/bundle.js"></script> -->
+    <!-- webpack自动打包 -->
+    <script src="/bundle.js"></script>
+</head>
+
+<body>
+    <!-- 测试 postCSS 自动添加 css兼容前缀 -->
+    <input type="text" placeholder="TestCssJianRong" />
+    <ul>
+        <li>这是第1个li</li>
+        <li>这是第2个li</li>
+        <li>这是第3个li</li>
+        <li>这是第4个li</li>
+        <li>这是第5个li</li>
+        <li>这是第6个li</li>
+        <li>这是第7个li</li>
+        <li>这是第8个li</li>
+        <li>这是第9个li</li>
+    </ul>
+    <!-- 打包样式表中的图片和字体文件 -->
+    <div id="box"></div>
+    <hr />
+    <!-- 在 webpack 项目中使用 vue -->
+    <!-- 将来要被vue控制的区域 -->
+    <div id="app"></div>
+</body>
+
+</html>

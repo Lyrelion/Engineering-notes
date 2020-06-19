@@ -1,0 +1,14 @@
+{
+  "name": "Engineering_babel_demo",
+  "version": "1.0.0",
+  "description": "1.���� babel���������\r npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
